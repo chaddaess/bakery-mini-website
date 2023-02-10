@@ -1,0 +1,84 @@
+.col-md-3
+{  
+    border: 1px solid transparent ;
+    margin-left: 2cm;
+    border-radius: 16px;
+    background-color:white; 
+    opacity: 1;
+    backdrop-filter: blur(4 px);
+    height:10cm ;
+    width: 8.75cm;
+    position: relative;
+    opacity:0.8;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+    
+ 
+   
+}   
+.col-md-3:hover
+{
+    transform: scale(1.2);
+   
+}
+
+
+.row
+{
+    margin-left: 3.5cm;
+}
+
+h1 
+{
+    text-align: center;
+    color: black;
+    font-weight: bold; 
+    border: 1px solid transparent;
+    background-color: white; 
+    border-radius: 16px; 
+    width: 11cm;
+    height: 1.5cm; 
+    margin-left: 37%; 
+    margin-top: 0.5cm;
+  
+}
+
+p 
+{
+  color:black; 
+  text-align: center;
+  
+} 
+
+h2 
+{
+    font-weight: bold;
+    text-align: justify;
+}
+
+body
+{
+    background-image: url("bakery2.jpg"); 
+    background-size: cover;
+}  
+
+.bouton
+{
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background-color:#97AC9B; 
+    margin-right: 50%; 
+    width: 4cm;
+    height: 1.5cm;
+}
+
+a 
+{
+    padding-left: 0.6cm ;
+    padding-top: 0.3cm;
+    text-decoration: none;
+    color: white; 
+    position: absolute; 
+    font-weight: 400;
+    
+}
